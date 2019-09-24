@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="bookmarks">BOOKMARKS</a>
+            <a href="index.html">LOGO</a>
+            <a href="profiel">PROFIEL</a>
+        </nav>
+    </header>
+    <h1> Welkom bij WOW-Verhalen!</h1>
+    <details>
+        <summary>Waar vlieg jij naartoe?</summary>
+        <form>
+            Boekingsnummer
+            <input type="text" name="Boekingsnummer" placeholder="SK5275">
+
+            Achternaam
+            <input type="text" name="Achterbaam" placeholder="Toumi">
+
+            <input type="submit" value="Zoeken">
+        </form>
+    </details>
+
+    <details>
+        <summary>Filteren</summary>
+        <form>
+            Trefwoord
+            <input type="text" placeholder="Blij" name="search">
+            Hoe voel jij je nu?
+            <select name="feelings">
+                <option value="Geen">Geen</option>
+                <option value="Gespannen">Gespannen</option>
+                <option value="Vrolijk">Vrolijk</option>
+                <option value="Bedoeft">Bedroeft</option>
+                <option value="Relaxt">Relaxt</option>
+                <option value="Boos">Boos</option>
+            </select>
+
+
+            Thema
+            <select name="Thema">
+                <option value="Geen">Geen</option>
+                <option value="Romantisch">Romantisch</option>
+                <option value="Detective">Detective</option>
+                <option value="Humor">Humor</option>
+                <option value="Vers">Vers</option>
+                <option value="Thriller">Thriller</option>
+            </select>
+<input type="submit" value="Zoeken">
+        </form>
+
+        <form>
+  <input type="radio" name="Aanraders" value="Nieuw" checked> Nieuw
+  <input type="radio" name="Aanraders" value="Best Beoordeeld"> Best Beoordeeld
+<input type="submit" value="Zoeken">
+        </form>
+    </details>
+
+    <details>
+        <summary>Sorteren</summary>
+        <form>
+
+  <input type="radio" name="Sort" value="A-Z Verhalen" checked> A-Z Verhalen
+  <input type="radio" name="Sort" value="1-99 Verhalen"> 1-99 Verhalen
+<input type="submit" value="Zoeken">
+</form>
+    </details>
+
+
+<main>
+    <article>
+<img src="img/IMG_9222.jpg">
+        <h2>Vrije Versvorm</h2>
+        <p>Gemeenteblik draaiende..</p>
+<!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_star_rating -->
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+
+
+        <h3>Thema: Vers</h3>
+        <button> <i class="fas fa-arrow-down"></i> </button>
+    </article>
+
+
+
+
+</main>
+
+</body>
+
+</html>
