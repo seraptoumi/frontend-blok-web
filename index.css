@@ -134,6 +134,7 @@ nav ul {
     padding: 2%;
     margin: 2%;
     height: 1em;
+    align-items: center;
 }
 
 nav img {
