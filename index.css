@@ -231,7 +231,7 @@ label.star:before {
     font-family: FontAwesome;
 }
 
-
+/* Breakpoints */
 @media (max-width: 2400px) {
     main {
         grid-template-columns: 1fr 1fr 1fr 1fr;
