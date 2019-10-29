@@ -4,18 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+    <title>Resultaten</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/efd0d0c999.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="bookmarks">BOOKMARKS</a>
-            <a href="index.html">LOGO</a>
-            <a href="profiel">PROFIEL</a>
+            <ul>
+                <li><a href=""><i class="fas fa-bookmark"></i></a></li>
+                <li><a href=""><img src="img/source.gif" alt="logo wow air"></a></li>
+                <li><a href=""><i class="fas fa-user"></i></a></li>
+            </ul>
         </nav>
+        <hr>
     </header>
     <h1> Welkom bij WOW-Verhalen!</h1>
     <details>
@@ -24,7 +27,7 @@
             Boekingsnummer
             <input type="text" name="Boekingsnummer" placeholder="SK5275">
 
-            Achternaam
+            <label>Achternaam</label>
             <input type="text" name="Achterbaam" placeholder="Toumi">
 
             <input type="submit" value="Zoeken">
@@ -35,10 +38,10 @@
         <summary>Filteren</summary>
         <form>
             Trefwoord
-            <input type="text" placeholder="Blij" name="search">
+            <input type="text" placeholder="Zoeken.." name="search">
             Hoe voel jij je nu?
             <select name="feelings">
-                <option value="Geen">Geen</option>
+                <option value="Geen">Select gevoel</option>
                 <option value="Gespannen">Gespannen</option>
                 <option value="Vrolijk">Vrolijk</option>
                 <option value="Bedoeft">Bedroeft</option>
@@ -49,20 +52,19 @@
 
             Thema
             <select name="Thema">
-                <option value="Geen">Geen</option>
+                <option value="Geen">Select thema</option>
                 <option value="Romantisch">Romantisch</option>
                 <option value="Detective">Detective</option>
                 <option value="Humor">Humor</option>
                 <option value="Vers">Vers</option>
                 <option value="Thriller">Thriller</option>
             </select>
-<input type="submit" value="Zoeken">
         </form>
 
         <form>
-  <input type="radio" name="Aanraders" value="Nieuw" checked> Nieuw
-  <input type="radio" name="Aanraders" value="Best Beoordeeld"> Best Beoordeeld
-<input type="submit" value="Zoeken">
+            <input type="radio" name="Aanraders" value="Nieuw" checked> Nieuw
+            <input type="radio" name="Aanraders" value="Best Beoordeeld"> Best Beoordeeld
+            <input type="submit" value="Zoeken">
         </form>
     </details>
 
@@ -70,34 +72,129 @@
         <summary>Sorteren</summary>
         <form>
 
-  <input type="radio" name="Sort" value="A-Z Verhalen" checked> A-Z Verhalen
-  <input type="radio" name="Sort" value="1-99 Verhalen"> 1-99 Verhalen
-<input type="submit" value="Zoeken">
-</form>
+            <input type="radio" name="Sort" value="A-Z Verhalen" checked> A-Z Verhalen
+            <input type="radio" name="Sort" value="1-99 Verhalen"> 1-99 Verhalen
+            <input type="submit" value="Zoeken">
+        </form>
     </details>
 
 
-<main>
-    <article>
-<img src="img/IMG_9222.jpg">
-        <h2>Vrije Versvorm</h2>
-        <p>Gemeenteblik draaiende..</p>
-<!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_star_rating -->
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
+    <main>
+        <article>
+            <header>
+                <img src="img/IMG_9222.jpg" alt="vervorm">
+                <h2>Vrije Versvorm</h2>
+            </header>
+
+            <p>Gemeenteblik draaiende..</p>
+
+            <footer>
+
+                <ul>
+                    <li><span><i class="fas fa-star"></i></span></li>
+
+                    <li><span><i class="fas fa-star"></i></span></li>
+
+                    <li><span><i class="fas fa-star"></i></span></li>
+
+                    <li><span><i class="fas fa-star"></i></span></li>
+
+                    <li><span><i class="fas fa-star"></i></span></li>
+                </ul>
+
+                <h3>Thema: Vers</h3>
+                <button> <i class="fas fa-arrow-down"></i> </button>
+            </footer>
+
+        </article>
+
+        <article>
+            <header>
+                <img src="img/IMG_9222.jpg" alt="vervorm">
+                <h2>Vrije Versvorm</h2>
+            </header>
+
+            <p>Gemeenteblik draaiende..</p>
+
+            <footer>
+
+                <ul>
+                    <li><span><i class="fas fa-star"></i></span></li>
+
+                    <li><span><i class="fas fa-star"></i></span></li>
+
+                    <li><span><i class="fas fa-star"></i></span></li>
+
+                    <li><span><i class="fas fa-star"></i></span></li>
+
+                    <li><span><i class="fas fa-star"></i></span></li>
+                </ul>
+
+                <h3>Thema: Vers</h3>
+                <button> <i class="fas fa-arrow-down"></i> </button>
+            </footer>
+
+        </article>
+        <article>
+            <header>
+                <img src="img/IMG_9222.jpg" alt="vervorm">
+                <h2>Vrije Versvorm</h2>
+            </header>
+
+            <p>Gemeenteblik draaiende..</p>
+
+            <footer>
+
+                <ul>
+                    <li><span><i class="fas fa-star"></i></span></li>
+
+                    <li><span><i class="fas fa-star"></i></span></li>
+
+                    <li><span><i class="fas fa-star"></i></span></li>
+
+                    <li><span><i class="fas fa-star"></i></span></li>
+
+                    <li><span><i class="fas fa-star"></i></span></li>
+                </ul>
+
+                <h3>Thema: Vers</h3>
+                <button> <i class="fas fa-arrow-down"></i> </button>
+            </footer>
+
+        </article>
 
 
-        <h3>Thema: Vers</h3>
-        <button> <i class="fas fa-arrow-down"></i> </button>
-    </article>
+        <article>
+            <header>
+                <img src="img/IMG_9222.jpg" alt="vervorm">
+                <h2>Vrije Versvorm</h2>
+            </header>
+
+            <p>Gemeenteblik draaiende..</p>
+
+            <footer>
+
+                <ul>
+                    <li><span><i class="fas fa-star"></i></span></li>
+
+                    <li><span><i class="fas fa-star"></i></span></li>
+
+                    <li><span><i class="fas fa-star"></i></span></li>
+
+                    <li><span><i class="fas fa-star"></i></span></li>
+
+                    <li><span><i class="fas fa-star"></i></span></li>
+                </ul>
+
+                <h3>Thema: Vers</h3>
+                <button> <i class="fas fa-arrow-down"></i> </button>
+            </footer>
+
+        </article>
 
 
 
-
-</main>
+    </main>
 
 </body>
 

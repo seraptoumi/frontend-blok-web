@@ -1,0 +1,701 @@
+#vande {
+    color: purple;
+    text-align: center;
+    padding-top: 10%;
+}
+#knop {
+    background-color: white;
+    width: 12%;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #99258d;
+    color: #99258d;
+    font-size: 1.5em;
+    margin-left: 43%;
+    margin-top: 13%;
+}
+
+
+#boekmark {
+    width: 100%;
+    font-size: 80px;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#vrijversvormimg {
+    background-image: url(img/bymolov.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px 140px;
+}
+
+#profiel {
+    margin: auto;
+    width: 80%;
+    border: 1px solid #eee;
+    padding: 20px 20px;
+    margin-top: 40px;
+
+}
+
+.andereverhalen {
+    font-family: "museo-sans", sans-serif;
+    font-weight: 550;
+    color: purple;
+    justify-content: center;
+    display: flex;
+    margin: 90px 0px 0px 0px;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+    /* https://blog.teamtreehouse.com/use-details-summary-elements*/
+}
+
+.bookmark.purple {
+    color: purple;
+}
+
+.bookmark {
+    margin: -9px 20px 0px 0px;
+    color: grey;
+    font-size: 3em;
+    position: absolute;
+    padding-left: 40%;
+
+}
+
+#beoordelingsterren {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.1;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+
+/* https://www.youtube.com/watch?v=ugc_lOKChlM */
+
+input.star {
+    display: none;
+    visibility: hidden;
+    position: absolute
+}
+
+.rat {
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    margin: auto;
+    color: #eee;
+    border-radius: 3px;
+    border: 5px solid rgb(255, 223, 93);
+    margin-top: 2%;
+}
+
+div.stars {
+    display: inline-block;
+
+}
+
+label.star {
+    float: right;
+    padding: 10px;
+    font-size: 50px;
+    color: rgb(255, 223, 93);
+    ;
+    transition: all 0.2s;
+}
+
+input.star:checked ~ label.star:before {
+    content: '\f005';
+    color: #fd4;
+    transition: all 0.2s;
+}
+
+input.star-5:checked ~ label.star:before {
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+}
+
+label.star:before {
+    content: '\f006';
+    font-family: FontAwesome;
+}
+
+#story,
+#tablet,
+#desktop {
+    margin: auto;
+    width: 80%;
+    border: 7px solid #99258d;
+    margin-top: 26%;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+#sort {
+    width: 60px;
+    height: 22px;
+    transform: translate(10%, 30%);
+    padding-right: 10px;
+
+}
+
+
+nav {
+    background-color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* https://davidwalsh.name/css-fixed-position*/
+
+nav li:first-of-type {
+    position: absolute fixed;
+
+}
+
+nav li:last-of-type {
+    position: absolute fixed;
+
+}
+
+nav img:first-of-type {
+    padding: 0 3.5em;
+    width: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+
+hr {
+    border: 1px solid #a6c4c4;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+h1 {
+    font-family: "museo-sans", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: underline yellow;
+
+}
+
+p {
+    font-family: museo-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+footer p {
+    font-style: normal;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: "museo-sans", sans-serif;
+    font-weight: 300;
+    color: purple;
+
+}
+
+#welkom {
+    color: #020303;
+    text-decoration: none;
+    font-family: museo-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    line-height: 29.24px;
+    padding: 10px 0px 0px 10px;
+
+}
+
+
+div button .dropdown {
+    border: grey 1px;
+    background-color: #99258d;
+    color: white;
+    font-family: museo-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+
+}
+
+div button img {
+    position: absolute fixed;
+    width: 70px;
+    height: 30px;
+    transform: translate(-0%, 35%);
+}
+
+/*https://stackoverflow.com/questions/22545325/how-to-vertically-align-text-with-icon-font*/
+
+button:hover {
+    background: #6d105c;
+    transition: 0.5s ease;
+    border: 1px solid #eee;
+
+}
+
+
+#img1 {
+    float: right;
+    width: 20px;
+    margin: 10px 20px 10px 0px;
+
+
+}
+
+
+#img2 {
+    float: right;
+    width: 20px;
+    margin: 10px 20px 10px 0px;
+}
+
+#img3 {
+    float: right;
+    width: 20px;
+    margin: 10px 20px 10px 0px;
+
+
+
+}
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown_hover */
+
+.dropdown {
+    position: relative;
+
+
+}
+
+
+
+.dropdown button {
+    border: none;
+    background-color: #99258d;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+    display: block;
+    line-height: 50px;
+    text-align: left;
+    width: 100%;
+
+}
+
+
+.dropdown:hover button {
+    background-color: #6d105c;
+    margin: 0px 0px;
+
+}
+
+
+
+
+.dropdown div {
+    visibility: visible;
+    padding: 0px;
+    border: 1px solid #eee;
+
+}
+
+
+
+input {
+    background: white;
+    border: 1px solid rgba(234, 234, 234, 1);
+    border-radius: 0;
+    font-size: 16px;
+    height: 20px;
+    width: 100%;
+    line-height: 22.8571px;
+    font-weight: 300;
+    padding: 12px 6px;
+    color: rgb(43, 64, 64);
+    margin: 15px 0;
+
+
+}
+
+
+
+label {
+    font-weight: 300;
+    font-size: 16px;
+    font-family: museo-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(43, 64, 64);
+}
+
+fieldset {
+    border: 0px none;
+    background-color: rgb(250, 250, 250);
+
+}
+
+
+.dropdown .zoekknop {
+    text-align: center;
+    font-family: museo-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: #99258d !important;
+    width: 100px;
+    float: right;
+}
+
+.zoekknop {
+    text-align: center;
+    font-family: museo-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: #99258d !important;
+    width: 100px;
+    height: 50px;
+    float: right;
+    color: white;
+    text-transform: uppercase;
+}
+
+div {
+    background-color: rgb(250, 250, 250);
+    max-width: 769px;
+    border: 1px solid #eee;
+
+}
+
+section {
+    background-color: rgb(250, 250, 250);
+    height: 350px;
+    max-width: 360px;
+}
+
+#inputzoeken {
+    border: 1px solid rgba(234, 234, 234, 1);
+    border-radius: 0px;
+    font-size: 16px;
+    height: 15px;
+    width: 270px;
+    line-height: 22.8571px;
+    font-weight: 300;
+    padding: 12px 35px;
+    color: rgb(43, 64, 64);
+    margin: 0px 10px 0px;
+    background: url(img/noun_Searchnifs.svg) white;
+    background-repeat: no-repeat;
+    background-size: 25px;
+}
+
+/*https://stackoverflow.com/questions/917610/put-icon-inside-input-element-in-a-form*/
+
+.search_categories {
+    border: 1px solid rgba(234, 234, 234, 1);
+    border-radius: 0px;
+    font-size: 16px;
+    height: 42px;
+    width: 342px;
+    font-weight: 300;
+    padding: 2px 3px;
+    color: rgb(43, 64, 64);
+    margin: 0px 10px 0px;
+    background: url(img/downgrey.svg) 300px white;
+    background-repeat: no-repeat;
+    background-size: 25px;
+
+}
+
+
+.BestBeoordeeld {
+    font-family: museo-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 20px;
+    float: left;
+    text-transform: none;
+}
+
+input[type="radio"] {
+    float: left;
+    display: block;
+    width: 22px;
+
+}
+
+#aanrader {
+    font-family: museo-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 0px;
+    line-height: 50px;
+}
+
+.downloaden i {
+    color: white;
+    font-size: 2em;
+
+
+}
+
+.downloaden {
+    background-color: #99258d;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+
+
+}
+
+
+.verhaal {
+    margin: 100px 0px 0px 0px;
+    height: 269px;
+    width: 100%;
+    border: 1px solid #a6c4c4;
+    padding: 0px 0px 55px 0px;
+
+
+
+
+}
+
+article img {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+    object-position: top;
+
+
+}
+
+.k {
+    float: right;
+    margin: 0px 20px 0px 10px;
+    border-style: none;
+}
+
+h3 {
+    margin: 0px 10px 0px;
+    font-size: 1.8em;
+    font-weight: 100;
+    font-family: museo-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(2, 3, 3);
+    text-decoration: underline rgb(255, 223, 93);
+
+
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+.thema {
+    color: #99258d;
+    text-decoration: underline grey;
+    font-style: normal;
+}
+
+
+.checked {
+    color: rgb(255, 223, 93);
+
+
+}
+
+article p {
+    font-size: 1.2em;
+    font-weight: 100;
+    margin: 4px 0px;
+    font-style: italic;
+    color: rgb(2, 3, 3);
+
+}
+
+
+span {
+    float: right;
+    padding: 0px 4px 0px 0px;
+    margin: 9px 5px 9px 0px;
+
+}
+
+footer {
+    background-color: #f4eee8;
+    text-align: center;
+    font-family: museo-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 50px 00px 50px 0px;
+
+}
+
+@media (min-width:376, max-width: 769px) {
+    #story,
+    #desktop {
+        display: none;
+    }
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 40px;
+    padding: 35px;
+    margin-right: 10px;
+
+}
+
+
+@media (max-width: 2400px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+
+    }
+    #vrijversvormimg {
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 0px 100px;
+    }
+
+}
+
+
+@media (max-width: 375px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+    #desktop,
+    #tablet {
+        visibility: hidden;
+        height: 0em;
+        margin-top: 10px;
+    }
+    #boekmark {
+        width: 100%;
+        font-size: 40px;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    #knop {
+        background-color: white;
+        width: 12%;
+        height: 25px;
+        border-radius: 10px;
+        border: 1px solid #99258d;
+        color: #99258d;
+        font-size: 1em;
+        margin-left: 43%;
+        margin-top: 13%;
+    }
+    .rat {}
+
+
+}
+
+
+
+@media (min-width: 769px) {
+    body {
+        background-image: url(img/Schermafdruk%202019-01-26%2023.49.43.png);
+        background-repeat: no-repeat;
+        background-size: 100% 5.5%;
+        background-repeat: no-repeat;
+        background-position: 0px 170px;
+    }
+    #niks{
+         background-image: url(img/Schermafdruk%202019-01-26%2023.49.43.png);
+        background-repeat: no-repeat;
+        background-size: 100% 15%;
+        background-repeat: no-repeat;
+        background-position: 0px 170px;
+    }
+
+    #story,
+    #tablet {
+        visibility: hidden;
+        height: 0em;
+        margin-top: 20px
+    }
+    #geenachtergrond {
+        background-image: none;
+    }
+
+}
+
+@media (min-width: 376px) {
+
+    #desktop,
+    #story {
+        visibility: hidden;
+        height: 0em;
+    }
+    #tablet {
+        margin-top: 10%;
+    }
+
+
+}
+
+@media (min-width: 770px) {
+
+    #tablet,
+    #story {
+        visibility: hidden;
+
+    }
+    #desktop {
+        visibility: visible;
+        height: 55em;
+        margin-top: 20%;
+    }
+    #boekmark {
+        width: 100%;
+        font-size: 70px;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+}
