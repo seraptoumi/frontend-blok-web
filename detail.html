@@ -10,53 +10,40 @@
 </head>
 
 <body>
-    <header>
+   <header>
         <nav>
             <ul>
-                <li><a href=""><i class="fas fa-bookmark"></i></a></li>
+                <li><a href=""><i class="fas fa-bars"></i></a></li>
                 <li><a href=""><img src="img/source.gif" alt="logo wow air"></a></li>
-                <li><a href=""><i class="fas fa-user"></i></a></li>
+                <li><input id="zoek" type="text" placeholder="Search.."></li>
+                <li><a href="#"><i class="fas fa-search"></i></a></li>
             </ul>
         </nav>
         <hr>
-
     </header>
 
-    <img id="banner" src="img/Schermafdruk%202019-01-25%2018.42.04.png" alt="banner versvorm">
+  <main>  <img id="banner" src="img/Schermafdruk%202019-01-25%2018.42.04.png" alt="banner versvorm">
     <span> <img src="img/IMG_9222.jpg" alt="vrijeversvorm"></span>
 
-    <div class="rat">
-                <h1 id="beoordelingsterren"> Beoordeel dit verhaal!</h1>
-                <div class="stars">
-                    <form action="">
-                        <input type="radio" class="star star-5" id="star-5" name="star">
+    <h2 id="beoordeling">Beoordeel dit verhaal!</h2>
+    <!-- https://codepen.io/tammykimkim/pen/yegZRw -->
 
-                        <label for="star-5" class="star star-5">
-                    </label>
+    <div class="rate">
+        <input type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text">1 star</label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text">2 stars</label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text">3 stars</label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text">4 stars</label>
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text">5 stars</label>
 
-                        <input type="radio" class="star star-4" id="star-4" name="star">
-
-                        <label for="star-4" class="star star-4">
-                    </label>
-
-                        <input type="radio" class="star star-3" id="star-3" name="star">
-
-                        <label for="star-3" class="star star-3">
-                    </label>
-
-                        <input type="radio" class="star star-2" id="star-2" name="star">
-
-                        <label for="star-2" class="star star-2">
-                    </label>
-
-                        <input type="radio" class="star star-1" id="star-1" name="star">
-
-                        <label for="star-1" class="star star-1">
-                    </label>
-
-                    </form>
-                </div>
-            </div>
+    </div>
 
 
-</body></html>
+    </main>
+
+</body>
+</html>
