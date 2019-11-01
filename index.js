@@ -1,7 +1,7 @@
 /*jslint browser: true, devel: true, eqeq: true, plusplus: true, sloppy: true, vars: true, white: true*/
 /*eslint-env browser*/
 /*eslint 'no-console':0*/
-//met hulp van caan
+//met hulp van kaan
 
 var vervangen = document.querySelectorAll(".vers");
 var zoekIcon = document.querySelector(".fa-search");
