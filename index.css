@@ -53,13 +53,20 @@ article h3 {
 }
 
 article button {
-    background-color: #99258d;
+    background: linear-gradient(to bottom, #99258d 50%, #5d1c56 50%);
+    background-size: 100% 200%;
+    background-position: right top;
     width: 50px;
     height: 35px;
     border-radius: 10px;
     margin: 2%;
     color: white;
     font-size: 1.3em;
+    transition: all .2s ease-in-out;
+}
+
+article button.selected {
+    background-position: left bottom;
 }
 
 form {
@@ -97,6 +104,13 @@ input {
     margin-left: 1%;
     margin: 2%;
 }
+
+input[type='text']:focus {
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 6px 2px rgba(153, 37, 141, 0.495);
+}
+
 
 summary {
     border: none;
@@ -148,6 +162,21 @@ nav img {
 
 nav a {
     color: rgb(131, 57, 133);
+}
+
+nav span#downloads {
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+    right: auto;
+    font-family: 'lato';
+    font-weight: 500;
+    font-size: 15pt;
+    cursor: default;
+    background: #99258d;
+    color: #fff;
+    padding: 0.2rem 0.6rem;
+    border-radius: 50%;
 }
 
 select,
